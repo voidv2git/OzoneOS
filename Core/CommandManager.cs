@@ -35,6 +35,7 @@ namespace OzoneOS
                 }
             }
 
+            Console.ForegroundColor = ConsoleColor.Red;
             return "Could Not Find The Command \"" + args[0] +"\".";
         }
     }
