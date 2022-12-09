@@ -1,0 +1,12 @@
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\bin\Debug\net5.0\OzoneOS.deps.json
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\bin\Debug\net5.0\OzoneOS.dll
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\bin\Debug\net5.0\ref\OzoneOS.dll
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\bin\Debug\net5.0\OzoneOS.pdb
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\obj\Debug\net5.0\OzoneOS.csproj.AssemblyReference.cache
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\obj\Debug\net5.0\OzoneOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\obj\Debug\net5.0\OzoneOS.AssemblyInfoInputs.cache
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\obj\Debug\net5.0\OzoneOS.AssemblyInfo.cs
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\obj\Debug\net5.0\OzoneOS.csproj.CoreCompileInputs.cache
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\obj\Debug\net5.0\OzoneOS.dll
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\obj\Debug\net5.0\ref\OzoneOS.dll
+C:\Users\nicka\OneDrive\Documents\C# Projects\Operating Systems\OzoneOS\OzoneOS\obj\Debug\net5.0\OzoneOS.pdb
