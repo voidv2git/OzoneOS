@@ -1,0 +1,22 @@
+﻿Instructions:
+	Data:
+		STOR R0,VAL   | Store VAL At R0.
+		INP R0        | Get User Input And Store At R0.
+		LOAD R0,R1    | Copy R1 To R0.
+	Math:            
+		IF R0,=/!,VAL | Check If R0 =/! VAL.
+		END           | End IF Statement.
+		ADD R0,R1     | Add R1 To R0.
+		SUB R0,R1     | Subtract R1 To R0.
+		MUL R0,R1     | Multiply R1 To R0.
+		DIV R0,R1     | Divide R1 To R0.
+		INC R0        | Adds 1 To R0.
+		DEC R0        | Subtracts 1 To R0.
+	Grahics:
+		PRNT R0      | Print R0 To Console Without New Line.
+		PRNTL R0     | Print R0 To Console With New Line.
+		CLR           | Clear Console.
+		BCOL COLOR    | Change Background Color To COLOR.
+		FCOL COLOR    | Change Foreground Color To COLOR.
+	REQUIRMENTS:
+		STOP          | Exits The Program.

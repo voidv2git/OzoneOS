@@ -21,6 +21,11 @@ namespace OzoneOS
             commands.Add(new DelDir("deldir"));
             commands.Add(new Clear("clear"));
             commands.Add(new Shutdown("shutdown"));
+            commands.Add(new Write("write"));
+            commands.Add(new Read("read"));
+            commands.Add(new MIV("miv"));
+            commands.Add(new BF("bf"));
+            commands.Add(new ASM("asm"));
         }
 
         public String processInput(String input)

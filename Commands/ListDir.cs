@@ -16,14 +16,14 @@ namespace OzoneOS
             Graphics graphics = new Graphics();
             CommandManager commandManager = new CommandManager();
 
-            graphics.setColor(ConsoleColor.Gray, ConsoleColor.White);
+            graphics.setColor(ConsoleColor.Gray, ConsoleColor.Black);
             graphics.drawTaskbar();
 
             graphics.changeColor(ConsoleColor.Blue, ConsoleColor.White);
-            Console.SetCursorPosition(30, 0);
+            Console.SetCursorPosition(59, 0);
             Console.WriteLine("OzoneOS File Explorer");
 
-            graphics.changeColor(ConsoleColor.Gray, ConsoleColor.White);
+            graphics.changeColor(ConsoleColor.Gray, ConsoleColor.Black);
 
             Console.SetCursorPosition(0, 1);
             Console.WriteLine("Current Files In Directory \"" + args[1] + "\":");

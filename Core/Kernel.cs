@@ -20,6 +20,9 @@ namespace OzoneOS
             Sys.FileSystem.VFS.VFSManager.RegisterVFS(this.vfs);
 
             commandManager = new CommandManager();
+
+            Console.Clear();
+
             Console.WriteLine(@"   ____                       ____   _____ 
   / __ \                     / __ \ / ____|
  | |  | |_______  _ __   ___| |  | | (___  
@@ -36,6 +39,12 @@ OzoneOS successfully booted up.
             var x = Console.CursorLeft;
 
             graphics.drawTaskbar();
+
+            graphics.changeColor(ConsoleColor.Blue, ConsoleColor.White);
+            Console.SetCursorPosition(66, 0);
+            Console.WriteLine("OzoneOS Kernel");
+
+            graphics.changeColor(ConsoleColor.Black, ConsoleColor.White);
 
             Console.SetCursorPosition(x, y);
 
