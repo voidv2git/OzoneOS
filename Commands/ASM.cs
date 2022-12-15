@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Sys = Cosmos.System;
 using System.IO;
+using System.ComponentModel;
+using System.Runtime.ExceptionServices;
 
 namespace OzoneOS
 {
@@ -32,6 +34,8 @@ namespace OzoneOS
         String Compile(String[] code)
         {
             String retValue;
+            int index = 0;
+            int j = 0;
 
             Core.RAM _ram = new Core.RAM();
             String[] ram = _ram.ram;
@@ -103,7 +107,7 @@ namespace OzoneOS
                             ram[Int32.Parse(_args[0])] = (Int32.Parse(ram[Int32.Parse(_args[0])]) / Int32.Parse(ram[Int32.Parse(_args[1])])).ToString();
                             break;
                         case "BCOL":
-                            switch (_args[0])
+                            switch (ram[Int32.Parse(_args[0])])
                             {
                                 case "Black":
                                     Console.BackgroundColor = ConsoleColor.Black;
@@ -130,7 +134,7 @@ namespace OzoneOS
                             }
                             break;
                         case "FCOL":
-                            switch (_args[0])
+                            switch (ram[Int32.Parse(_args[0])])
                             {
                                 case "Black":
                                     Console.ForegroundColor = ConsoleColor.Black;
@@ -169,6 +173,16 @@ namespace OzoneOS
                             break;
                         case "STOP":
                             return "The program '' has exited with code 0 (0x0).";
+                        case "LOOP":
+                            index = i;
+                            break;
+                        case "_LOOP":
+                            j = i++;
+                            i = index;
+                            break;
+                        case "BREAK":
+                            i = j;
+                            break;
                         default:
                             Console.ForegroundColor = ConsoleColor.Red;
                             retValue = "INSTRUCTION Error On Line " + i + ".\n" + code[i];

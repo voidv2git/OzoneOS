@@ -26,6 +26,7 @@ namespace OzoneOS
             commands.Add(new MIV("miv"));
             commands.Add(new BF("bf"));
             commands.Add(new ASM("asm"));
+            commands.Add(new bsod("bsod"));
         }
 
         public String processInput(String input)
